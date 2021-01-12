@@ -1,0 +1,192 @@
+/* Created by Rachana Singh */
+
+*{
+	margin:0px;
+	padding:0px;
+    text-align:center;	
+}
+a{
+	color: #4568f2;
+    font-weight: 500;
+}
+p{
+	font-size:1.2rem;
+}
+.center{
+	text-align:center;
+}
+.cong-box{
+	background-image:url("../images/Rectangle 24.png");
+	border-radius: 3rem 3rem 0rem 0rem;
+}
+.header-white-text{
+	color:#fff;
+	text-align:center;
+}
+.top-section{
+	background-image:url("../images/Rectangle 27.png") , url("../images/Mask Group-3.png"); 
+	background-size:cover,cover;
+	background-repeat:repeat,repeat;
+}
+.top-section img{
+	padding-top: 2.1rem;
+    padding-bottom: 2.2rem;
+	object-fit: contain;
+}
+.card-hold-wrap{
+	border:1px black;
+}
+.customer-text-wrapper{
+	background-color:#fff;
+}
+.card img{
+	max-height: 8rem;    
+    margin: 1rem;
+}
+.card-body p{
+	font-size: 1.2rem;
+    text-align: left !important;
+}
+.card .col-md-3{
+	background-image:url("../images/Rectangle 48-1.png");
+	background-position: top left;
+	background-size:contain;
+	background-repeat:no-repeat;
+	
+}
+.problem-text p{
+	line-height: 2.5rem;
+    font-size: 1.2rem;
+	text-align: left;
+	padding:1.5rem;
+}
+.support-recipe-text-wrap-main p{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}	
+
+/*****style***************/
+
+.customer-text-wrapper h4 span {
+    color: #e00083;
+    line-height: 3.5rem;
+}
+
+.customer-text-wrapper h4 {
+    font-weight: 700;
+    margin: 2rem 0 1.5rem;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.profile-image-warp:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #4568f2;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+}
+.warning-text-main{
+	color: #fff;
+    padding: 12px 12px;
+    text-align: center;
+    border-radius: 10px;
+    background: #4568f2;
+    font-weight: 700;  
+    width: 95%;   
+    margin: 0 auto;    
+}
+.support-recipe-text-wrap-main h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #e00083;    
+    margin: 2rem 2rem;
+    text-shadow: 0 4px 4px rgba(0,0,0,.15);
+    font-size: 2.5rem;
+}
+.lightgray-bg{
+	background-color: #F0F0F0;
+    border-radius: 0rem 0rem 3rem 3rem;
+}
+
+.support-recipe-text-wrap-main h4 {
+    font-size: 1.5rem;
+    color: #252525;
+    text-shadow: 0 4px 0 rgba(0,0,0,.03);   
+    padding: auto 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-weight: 700;
+    
+}
+
+.whatyou-get-heading-main-outer{
+	background-image:url("../images/Group 44.png"),url("../images/Group 44.png");	
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left center , right center;
+	margin-top: 1.2rem;
+
+}	
+
+.whatyou-get-heading-main{
+	background: linear-gradient(180deg,#c8107b -41.88%,rgba(255,255,255,0) 182.5%),#fb0094;
+    border-radius: 8px;  
+    width: 73%;   
+    margin: 0 auto;
+    padding: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 0 4px 4px rgba(0,0,0,.15);
+}
+.sub-heading-text-main {
+    color: #252525;
+    text-shadow: 0 4px 0 rgba(0,0,0,.03);
+    font-size: 1.5rem;
+    margin: 40px auto;
+    text-align: center;
+    font-weight: 700;
+}	
+.card{
+	box-shadow: 2px 2px 4px 2px #D3D3D3;
+}
+
+.header-white-text-main {
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+    text-shadow: 0 4px 6px rgba(0,0,0,.15);
+}
+
+@media (max-width: 767.98px) {
+	.header-white-text-main h1{
+		font-size:2rem;
+	}
+	.header-white-text-main h3{
+		font-size:1.2rem;
+	}
+	.support-recipe-text-wrap-main h4 {
+		padding-left: 0rem; 
+		padding-right: 0rem;
+	}
+	.support-recipe-text-wrap-main p {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.card .col-md-3 {
+    background-image: url("../images/Rectangle 30.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+	.problem-text p {
+		line-height: 2.2rem;
+		font-size: 1.2rem;
+		padding: 1rem;
+	}
+}
